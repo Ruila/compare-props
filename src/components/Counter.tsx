@@ -1,5 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
+import { Title } from "./Title"
 
 export const Counter: React.FunctionComponent = () => {
-  return <div>ada</div>
+  const [count, setCount] = useState(0)
+  return (
+    <div>
+      <Title name="Demo Counter" />
+      <div>count: {count}</div>
+      <button onClick={() => setCount(count + 1)}>CLick</button>
+    </div>
+  )
 }
