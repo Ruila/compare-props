@@ -2,7 +2,12 @@
   "name": "compare-pops",
   "version": "1.0.0",
   "description": "my-gatsby-site",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": "git@github.com:Ruila/compare-pops.git",
   "author": "Ruila",
   "license": "MIT",
@@ -14,6 +19,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "prebuild-to-npm": "rm -rf dist && NODE_ENV=production babel src/core --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
@@ -28,12 +34,16 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.41",
     "@types/react-dom": "^17.0.14",
-    "babel-eslint": "^10.1.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-gatsby": "^2.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
