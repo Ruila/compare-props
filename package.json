@@ -1,6 +1,6 @@
 {
   "name": "compare-props",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "my-gatsby-site",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -29,7 +29,7 @@
     "test:update": "jest -u"
   },
   "dependencies": {
-    "compare-props": "^0.0.5",
+    "compare-props": "^0.0.6",
     "gatsby": "^4.10.1",
     "gatsby-plugin-postcss": "^5.10.0",
     "gatsby-plugin-prettier-eslint": "^1.0.6",

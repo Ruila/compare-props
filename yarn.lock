@@ -3863,6 +3863,21 @@ compare-props@^0.0.5:
     react "^17.0.1"
     react-dom "^17.0.1"
 
+compare-props@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.6.tgz#c142b23877d31a8cb4a80d30be4632a6244b227a"
+  integrity sha512-oFMgWo2MUq1R3vhqaKorFAuM1P2iizXkm2uSlEXMjrRugTtQRLVjMh6vf0Bjdlp7vLj+scvx3dZoBEN3MaqDqw==
+  dependencies:
+    compare-props "^0.0.5"
+    gatsby "^4.10.1"
+    gatsby-plugin-postcss "^5.10.0"
+    gatsby-plugin-prettier-eslint "^1.0.6"
+    ming-npm-package "1.0.1"
+    postcss "^8.4.12"
+    prettier "^2.6.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
 component-emitter@^1.2.1, component-emitter@~1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
