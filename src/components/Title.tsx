@@ -6,7 +6,7 @@ type TitleProps = {
 }
 export const Title: React.FunctionComponent<TitleProps> = React.memo(
   ({ name }: TitleProps) => {
-    return <div>Title: {name}</div>
+    return <div>Title: {name}{console.info("aaaa")}</div>
   },
   compareProps
 )
