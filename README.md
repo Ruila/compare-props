@@ -19,7 +19,7 @@ Checking if props change with React.memo in React components.
 ## Usage
 
 ```jsx
-import { useCookie } from "react-use"
+import React from "react"
 import { compareProps } from "compare-props"
 
 type DemoProps = {
