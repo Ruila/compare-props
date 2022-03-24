@@ -1,8 +1,9 @@
 {
-  "name": "compare-pops",
-  "version": "1.0.0",
+  "name": "compare-props",
+  "version": "0.0.5",
   "description": "my-gatsby-site",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -18,7 +19,9 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "prebuild-to-npm": "rm -rf dist && NODE_ENV=production babel src/ --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build-npm": "yarn build-npm:types && yarn build-npm:js",
+    "build-npm:types": "tsc --emitDeclarationOnly",
+    "build-npm:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
@@ -26,9 +29,11 @@
     "test:update": "jest -u"
   },
   "dependencies": {
+    "compare-props": "^0.0.5",
     "gatsby": "^4.10.1",
     "gatsby-plugin-postcss": "^5.10.0",
     "gatsby-plugin-prettier-eslint": "^1.0.6",
+    "ming-npm-package": "1.0.1",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "react": "^17.0.1",
@@ -54,6 +59,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "react-test-renderer": "^17.0.2",
-    "typescript": "^4.6.2"
+    "typescript": "^3.8"
   }
 }

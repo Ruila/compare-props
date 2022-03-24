@@ -1,5 +1,5 @@
 import React from "react"
-import { compareProps } from "../core/compareProps"
+import { compareProps } from "compare-props"
 
 type TitleProps = {
   name: string
