@@ -1,6 +1,5 @@
 {
   "plugins": [
-    ["@babel/plugin-proposal-decorators", { "legacy": true }]
   ],
   "presets": [
     [
@@ -10,6 +9,7 @@
           "browsers": [">0.25%", "not dead"]
         }
       }
-    ]
+    ],
+    "@babel/preset-react"
   ]
 }
