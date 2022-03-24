@@ -27,6 +27,21 @@ const config: GatsbyConfig = {
           },
         },
       },
+    },
+    {
+      resolve: 'gatsby-plugin-typescript',
+      options: {
+        transpileOnly: true, // default
+        compilerOptions: {
+          target: 'es5',
+          experimentalDecorators: true,
+          jsx: `react`,
+          isTSX: true, // defaults to false
+          jsxPragma: `jsx`, // defaults to "React"
+          allExtensions: true, // defaults to false
+
+        }, // default
+      }
     },]
 };
 

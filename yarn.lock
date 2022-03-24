@@ -3805,6 +3805,64 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
 
+compare-props@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.2.tgz#869c7aefaaab6d57eb88240e871972fb387862fd"
+  integrity sha512-/vsMyoxu3WabD23Vatt8gyZU4EeNFq/A2txhIWqWXFDrxtWsF8kmGeAbM74QjQ9Z6PwE4X4jJDghPpEuT6eQJQ==
+  dependencies:
+    gatsby "^4.10.1"
+    gatsby-plugin-postcss "^5.10.0"
+    gatsby-plugin-prettier-eslint "^1.0.6"
+    postcss "^8.4.12"
+    prettier "^2.6.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
+compare-props@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.3.tgz#eac0719dd2064551b9b6b4570ec978e448364447"
+  integrity sha512-Nt/eMO0OX0RU4W5+wqHV32mTS61RP/wz24eVVQlBHnGeSNP8+02sF4nobVqpDK9nav+OVx3WCuHFNjNqIAbWdw==
+  dependencies:
+    compare-props "^0.0.2"
+    gatsby "^4.10.1"
+    gatsby-plugin-postcss "^5.10.0"
+    gatsby-plugin-prettier-eslint "^1.0.6"
+    ming-npm-package "1.0.1"
+    postcss "^8.4.12"
+    prettier "^2.6.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
+compare-props@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.4.tgz#846824863b0bd74d740a087c0b1e5023cf5613d0"
+  integrity sha512-KTYfz+KZ0U1pl8eHV+3tT2L3lvDWMIy+U3S0aLfy6ljehuYeWp8AGJG1KheSV7/OaqDxLMEw4tXlhz6mn8Q+Hg==
+  dependencies:
+    compare-props "^0.0.3"
+    gatsby "^4.10.1"
+    gatsby-plugin-postcss "^5.10.0"
+    gatsby-plugin-prettier-eslint "^1.0.6"
+    ming-npm-package "1.0.1"
+    postcss "^8.4.12"
+    prettier "^2.6.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
+compare-props@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.5.tgz#5ac2173aa816b2c739ea8cf7692ca8710e39313e"
+  integrity sha512-zzVBVFMWr8TgymodIDMKI4/12TABFu8Bfdkxyz3LwEAn6LWU2vhtz4BAoG8YmClERGxjcGkv0siOS8ilT1TqrQ==
+  dependencies:
+    compare-props "^0.0.4"
+    gatsby "^4.10.1"
+    gatsby-plugin-postcss "^5.10.0"
+    gatsby-plugin-prettier-eslint "^1.0.6"
+    ming-npm-package "1.0.1"
+    postcss "^8.4.12"
+    prettier "^2.6.0"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+
 component-emitter@^1.2.1, component-emitter@~1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
@@ -8080,6 +8138,11 @@ mimic-response@^3.1.0:
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
+ming-npm-package@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ming-npm-package/-/ming-npm-package-1.0.1.tgz#9a9f842351d9a2332b8fd2fc6fc57903bd8dff5f"
+  integrity sha512-Y3JJZAwukkGaAuS4zViNRwoRP4aD50Ob1rtrqpIQHK4E5Y346GVtS4YVhKAiuX1qiiqPrvXEDSitz+sO46jGjw==
+
 mini-css-extract-plugin@1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-1.6.2.tgz#83172b4fd812f8fc4a09d6f6d16f924f53990ca8"
@@ -10820,10 +10883,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
-  integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
+typescript@^3.8:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
