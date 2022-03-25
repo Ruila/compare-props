@@ -1,6 +1,6 @@
 {
   "name": "compare-props",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "my-gatsby-site",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -21,23 +21,12 @@
     "build": "gatsby build",
     "build-npm": "yarn build-npm:types && yarn build-npm:js",
     "build-npm:types": "tsc --emitDeclarationOnly",
-    "build-npm:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "build-npm:js": "babel src/core --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "test:update": "jest -u"
-  },
-  "dependencies": {
-    "compare-props": "^0.0.6",
-    "gatsby": "^4.10.1",
-    "gatsby-plugin-postcss": "^5.10.0",
-    "gatsby-plugin-prettier-eslint": "^1.0.6",
-    "ming-npm-package": "1.0.1",
-    "postcss": "^8.4.12",
-    "prettier": "^2.6.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -59,6 +48,15 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "react-test-renderer": "^17.0.2",
-    "typescript": "^3.8"
+    "typescript": "^3.8",
+    "compare-props": "^0.0.7",
+    "gatsby": "^4.10.1",
+    "gatsby-plugin-postcss": "^5.10.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
+    "ming-npm-package": "1.0.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
