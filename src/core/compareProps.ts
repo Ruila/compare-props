@@ -47,6 +47,8 @@ export function compareProps<T>(prevObj: T, nextObj: T): boolean {
       } else {
         return true
       }
+    } else if( Object.prototype.toString.call(prevObj[key as keyof typeof prevObj]) === "[object Object]") {
+      return compareProps(prevObj[key as keyof typeof prevObj], nextObj[key as keyof typeof nextObj])
     }
     return true
   })
