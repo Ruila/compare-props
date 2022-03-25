@@ -113,7 +113,10 @@
     "jest-preprocess.js",
     "jest.config.js",
     "loadershim.js",
-    "gatsby-config.ts"
+    "gatsby-config.ts",
+    "src/pages",
+    "src/components",
+    "src/core/__tests__"
   ],
   "include": ["./src"]
 }
