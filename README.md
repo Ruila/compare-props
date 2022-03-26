@@ -9,7 +9,6 @@
   <br />
   <br />
   <pre>npm i <a href="https://www.npmjs.com/package/compare-props">compare-props</a></pre>
-<br>  
 Or
 <br>
 <pre>yarn add <a href="https://www.npmjs.com/package/compare-props">compare-props</a></pre>
