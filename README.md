@@ -17,7 +17,8 @@ Or
   <br />
 </div>
 
-Checking if props change with React.memo in React components.
+Doing shallow compare with React.memo in React components.<br><br>
+Test Data: <a href="https://github.com/Ruila/compare-props/blob/main/src/core/__tests__/compareProps.spec.ts">link</a>
 
 ## Usage
 
