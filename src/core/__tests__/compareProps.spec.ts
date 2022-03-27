@@ -142,6 +142,26 @@ describe("compareObject spec", () => {
     }]
   }
 
+  const obj16 = {
+    list: [{
+      id: 2,
+      name: "user2"
+    },{
+      id: 3,
+      name: "user3"
+    }]
+  }
+
+  const obj17 = {
+    list: [{
+      id: 2,
+      name: "user2"
+    },{
+      id: 3,
+      name: "user3"
+    }]
+  }
+
   it("compareObject shows", () => {
     expect(compareProps(obj1, copyObj1)).toBe(true)
     expect(compareProps(obj1, obj2)).toBe(false)
@@ -169,5 +189,6 @@ describe("compareObject spec", () => {
     expect(compareProps(obj4, obj11)).toBe(false)
     expect(compareProps(obj12, obj13)).toBe(false)
     expect(compareProps(obj14, obj15)).toBe(false)
+    expect(compareProps(obj16, obj17)).toBe(true)
   })
 })
