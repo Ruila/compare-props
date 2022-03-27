@@ -3805,10 +3805,10 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
 
-compare-props@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.9.tgz#3d2288ea977eaaedb36bc1336ee9a966334fb503"
-  integrity sha512-uzUqOohVcGT9klu7fFLj1Xv2NJyNLw3pEGMKJUQBtcUQ22t8z+XLuimoPFaAmXEqOEEJh+oZwufpqVSGVmAHbg==
+compare-props@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/compare-props/-/compare-props-0.0.13.tgz#892500b1f813adae61ab86ffb451b9cad5e4630e"
+  integrity sha512-KnBz794Y+pA2M/POoaBk5uYSM9Mx/G71MdT4rM+DVQ8M1i7TrvVLO7AyxD+Iq4d6rsoiabAuoxzHb+MXRCTWjQ==
 
 component-emitter@^1.2.1, component-emitter@~1.3.0:
   version "1.3.0"
